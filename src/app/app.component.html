@@ -1,0 +1,43 @@
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <p>
+    Put time by seconds(coding side automatically converted to milliseconds)
+  </p>
+</div>
+
+<h2>
+  Date Counter
+</h2>
+<p>
+  <down-counter [time]="124354"></down-counter>
+</p>
+
+<h2>
+  Time Counter
+</h2>
+<p>
+  <time-span [time]="4354"></time-span>
+</p>
+
+<h2>
+  Digit Format
+</h2>
+<p>
+  Hours: {{2|digitFormat}} Minutes: {{2|digitFormat}}  Seconds: {{3|digitFormat}}
+</p>
+
+<h2>
+  Date format
+</h2>
+<p>
+  Date of birth {{324234|dateFormat}}
+</p>
+
+<h2>
+  Time format
+</h2>
+<p>
+  Auction time {{3345|timeFormat}}
+</p>
