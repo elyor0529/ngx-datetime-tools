@@ -1,2 +1,2 @@
-# ngx-downcounter
-Angular DownCounter
+# ngx-datetime-tools
+  Angular datetime tools
