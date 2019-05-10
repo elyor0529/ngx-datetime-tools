@@ -1,2 +1,2 @@
-# ngx-flipclock
-Angular Flipclock
+# ngx-downcounter
+Angular DownCounter
